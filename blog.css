@@ -1,0 +1,111 @@
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.painel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.painel li {
+    display: block;
+    margin: 5px 0;
+}
+
+.painel a {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.painel a:hover {
+    color: #0073e6;
+    text-decoration: underline;
+}
+
+.ultimos-posts {
+    background-color: #ccece6;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #97d3c3;
+}
+
+.ultimos-posts li {
+    padding: 8px;
+    background-color: #f6fff8;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.ultimos-posts li:hover {
+    background-color: #e0f7eb;
+}
+
+.posts-populares {
+    background-color: #e6e8ff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #b3b5ff;
+}
+
+.posts-populares li {
+    padding: 8px;
+    background-color: #f6f7ff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.posts-populares li:hover {
+    background-color: #d6d9ff;
+}
+
+.categorias {
+    background-color: #fff2cc;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #ffe599;
+}
+
+.categorias li {
+    padding: 8px;
+    background-color: #fffdf6;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.categorias li:hover {
+    background-color: #fff4cc;
+}
+
+.tags {
+    background-color: #ffcccc;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #ff9999;
+}
+
+.tags li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #fff5f5;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.tags li:hover {
+    background-color: #ffdfdf;
+}
